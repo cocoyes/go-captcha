@@ -80,7 +80,7 @@ $ go get -u github.com/cocoyes/go-captcha/v2@latest
 package main
 
 // Import modules on demand
-import "github.com/cocoyes/go-captcha/v2/${click|slide|rotate}"
+import "github.com/cocoyes/go-captcha/${click|slide|rotate}"
 
 func main(){
    // ...
@@ -116,9 +116,9 @@ import (
 
 	"github.com/golang/freetype"
 	"github.com/golang/freetype/truetype"
-	"github.com/cocoyes/go-captcha/v2/base/option"
-	"github.com/cocoyes/go-captcha/v2/click"
-	"github.com/cocoyes/go-captcha/v2/base/codec"
+	"github.com/cocoyes/go-captcha/base/option"
+	"github.com/cocoyes/go-captcha/click"
+	"github.com/cocoyes/go-captcha/base/codec"
 )
 
 var textCapt click.Captcha
@@ -321,9 +321,9 @@ import (
 	"log"
 	"io/ioutil"
 
-	"github.com/cocoyes/go-captcha/v2/base/option"
-	"github.com/cocoyes/go-captcha/v2/slide"
-	"github.com/cocoyes/go-captcha/v2/base/codec"
+	"github.com/cocoyes/go-captcha/base/option"
+	"github.com/cocoyes/go-captcha/slide"
+	"github.com/cocoyes/go-captcha/base/codec"
 )
 
 var slideTileCapt slide.Captcha
@@ -512,8 +512,8 @@ import (
 	"log"
 	"io/ioutil"
 
-	"github.com/cocoyes/go-captcha/v2/rotate"
-	"github.com/cocoyes/go-captcha/v2/base/codec"
+	"github.com/cocoyes/go-captcha/rotate"
+	"github.com/cocoyes/go-captcha/base/codec"
 )
 
 var rotateCapt rotate.Captcha
