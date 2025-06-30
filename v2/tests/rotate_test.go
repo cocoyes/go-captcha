@@ -15,12 +15,12 @@ var rotateCapt rotate.Captcha
 func init() {
 	builder := rotate.NewBuilder()
 
-	bgImage, err := loadPng("resources/images/1.jpg")
+	bgImage, err := loadJpg("resources/images/1.jpg")
 	if err != nil {
 		log.Fatalln(err)
 	}
 
-	bgImage1, err := loadPng("../.cache/bg1.png")
+	bgImage1, err := loadJpg("resources/images/1.jpg")
 	if err != nil {
 		log.Fatalln(err)
 	}

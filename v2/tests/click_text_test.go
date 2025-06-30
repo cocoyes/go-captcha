@@ -16,8 +16,8 @@ var textCapt click.Captcha
 
 func init() {
 	builder := click.NewBuilder(
-		click.WithRangeLen(option.RangeVal{Min: 4, Max: 6}),
-		click.WithRangeVerifyLen(option.RangeVal{Min: 2, Max: 4}),
+		click.WithRangeLen(option.RangeVal{Min: 2, Max: 4}),
+		click.WithRangeVerifyLen(option.RangeVal{Min: 2, Max: 2}),
 		click.WithDisabledRangeVerifyLen(true),
 		click.WithIsThumbNonDeformAbility(false),
 	)
@@ -27,15 +27,15 @@ func init() {
 		log.Fatalln(err)
 	}
 
-	bgImage, err := loadPng("resources/images/1.jpg")
+	bgImage, err := loadJpg("resources/images/1.jpg")
 	if err != nil {
 		log.Fatalln(err)
 	}
 
 	builder.SetResources(
 		click.WithChars(map[string][]string{
-			"group_chinese":  {"鼓", "鼎", "默", "黔", "黑", "黎", "黍", "黄", "麻", "麸", "麦", "鹿"},
-			"group_alphanum": {"A1", "B2", "C3", "D4", "E5", "F6", "G7", "H8", "I9", "J0"},
+			"cn": {"鼓", "鼎", "默", "黔", "黑", "黎", "黍", "黄", "麻", "麸", "麦", "鹿"},
+			"en": {"A1", "B2", "C3", "D4", "E5", "F6", "G7", "H8", "I9", "J0"},
 		}),
 		click.WithFonts([]*truetype.Font{
 
@@ -53,7 +53,7 @@ func init() {
 }
 
 func TestClickTextCaptcha(t *testing.T) {
-	captData, err := textCapt.Generate("group_chinese")
+	captData, err := textCapt.Generate("en")
 	if err != nil {
 		log.Fatalln(err)
 	}

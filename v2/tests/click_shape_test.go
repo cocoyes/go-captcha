@@ -28,12 +28,12 @@ func init() {
 		click.WithRangeThumbBgDistort(1),
 	)
 
-	bgImage, err := loadPng("resources/images/1.jpg")
+	bgImage, err := loadJpg("resources/images/1.jpg")
 	if err != nil {
 		log.Fatalln(err)
 	}
 
-	bgImage1, err := loadPng("../.cache/bg1.png")
+	bgImage1, err := loadJpg("resources/images/1.jpg")
 	if err != nil {
 		log.Fatalln(err)
 	}
@@ -55,32 +55,32 @@ func init() {
 }
 
 func getShapeMaps() map[string]image.Image {
-	shapeImage1, err := loadPng("../.cache/shape1.png")
+	shapeImage1, err := loadPng("resources/images/shape/shape1.png")
 	if err != nil {
 		log.Fatalln(err)
 	}
 
-	shapeImage2, err := loadPng("../.cache/shape2.png")
+	shapeImage2, err := loadPng("resources/images/shape/shape2.png")
 	if err != nil {
 		log.Fatalln(err)
 	}
 
-	shapeImage3, err := loadPng("../.cache/shape3.png")
+	shapeImage3, err := loadPng("resources/images/shape/shape3.png")
 	if err != nil {
 		log.Fatalln(err)
 	}
 
-	shapeImage4, err := loadPng("../.cache/shape4.png")
+	shapeImage4, err := loadPng("resources/images/shape/shape4.png")
 	if err != nil {
 		log.Fatalln(err)
 	}
 
-	shapeImage5, err := loadPng("../.cache/shape5.png")
+	shapeImage5, err := loadPng("resources/images/shape/shape5.png")
 	if err != nil {
 		log.Fatalln(err)
 	}
 
-	shapeImage6, err := loadPng("../.cache/shape6.png")
+	shapeImage6, err := loadPng("resources/images/shape/shape6.png")
 	if err != nil {
 		log.Fatalln(err)
 	}
@@ -122,7 +122,7 @@ func TestClickShapeCaptcha(t *testing.T) {
 }
 
 func TestScale(t *testing.T) {
-	shapeBytes4, err := ioutil.ReadFile("../.cache/shape4.png")
+	shapeBytes4, err := ioutil.ReadFile("resources/images/shape/shape4.png")
 	if err != nil {
 		log.Fatalln(err)
 	}

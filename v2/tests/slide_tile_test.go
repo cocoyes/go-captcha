@@ -19,12 +19,12 @@ func init() {
 	//slide.WithEnableGraphVerticalRandom(true),
 	)
 
-	bgImage, err := loadPng("resources/images/1.jpg")
+	bgImage, err := loadJpg("resources/images/1.jpg")
 	if err != nil {
 		log.Fatalln(err)
 	}
 
-	bgImage1, err := loadPng("../.cache/bg1.png")
+	bgImage1, err := loadJpg("resources/images/1.jpg")
 	if err != nil {
 		log.Fatalln(err)
 	}
@@ -47,31 +47,31 @@ func init() {
 }
 
 func getSlideTileGraphArr() []*slide.GraphImage {
-	tileImage1, err := loadPng("../.cache/tile-1.png")
+	tileImage1, err := loadPng("resources/images/tile/tile-1/tile.png")
 	if err != nil {
 		log.Fatalln(err)
 	}
 
-	tileShadowImage1, err := loadPng("../.cache/tile-shadow-1.png")
+	tileShadowImage1, err := loadPng("resources/images/tile/tile-1/tile-shadow.png")
 	if err != nil {
 		log.Fatalln(err)
 	}
-	tileMaskImage1, err := loadPng("../.cache/tile-mask-1.png")
-	if err != nil {
-		log.Fatalln(err)
-	}
-
-	tileImage2, err := loadPng("../.cache/tile-2.png")
+	tileMaskImage1, err := loadPng("resources/images/tile/tile-1/tile-mask.png")
 	if err != nil {
 		log.Fatalln(err)
 	}
 
-	tileShadowImage2, err := loadPng("../.cache/tile-shadow-2.png")
+	tileImage2, err := loadPng("resources/images/tile/tile-2/tile.png")
 	if err != nil {
 		log.Fatalln(err)
 	}
 
-	tileMaskImage2, err := loadPng("../.cache/tile-mask-2.png")
+	tileShadowImage2, err := loadPng("resources/images/tile/tile-2/tile-shadow.png")
+	if err != nil {
+		log.Fatalln(err)
+	}
+
+	tileMaskImage2, err := loadPng("resources/images/tile/tile-2/tile-mask.png")
 	if err != nil {
 		log.Fatalln(err)
 	}
