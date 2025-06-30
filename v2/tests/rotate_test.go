@@ -7,7 +7,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/wenlng/go-captcha/v2/rotate"
+	"github.com/cocoyes/go-captcha/v2/rotate"
 )
 
 var rotateCapt rotate.Captcha

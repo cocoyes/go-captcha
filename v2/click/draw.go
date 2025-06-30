@@ -12,12 +12,12 @@ import (
 	"math"
 	mRand "math/rand"
 
+	"github.com/cocoyes/go-captcha/v2/base/canvas"
+	"github.com/cocoyes/go-captcha/v2/base/helper"
+	"github.com/cocoyes/go-captcha/v2/base/option"
+	"github.com/cocoyes/go-captcha/v2/base/randgen"
+	"github.com/cocoyes/go-captcha/v2/base/random"
 	"github.com/golang/freetype"
-	"github.com/wenlng/go-captcha/v2/base/canvas"
-	"github.com/wenlng/go-captcha/v2/base/helper"
-	"github.com/wenlng/go-captcha/v2/base/option"
-	"github.com/wenlng/go-captcha/v2/base/randgen"
-	"github.com/wenlng/go-captcha/v2/base/random"
 	"golang.org/x/image/draw"
 	"golang.org/x/image/font"
 )

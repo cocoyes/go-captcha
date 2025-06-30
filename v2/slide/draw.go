@@ -9,8 +9,8 @@ package slide
 import (
 	"image"
 
-	"github.com/wenlng/go-captcha/v2/base/canvas"
-	"github.com/wenlng/go-captcha/v2/base/randgen"
+	"github.com/cocoyes/go-captcha/v2/base/canvas"
+	"github.com/cocoyes/go-captcha/v2/base/randgen"
 	"golang.org/x/image/draw"
 )
 

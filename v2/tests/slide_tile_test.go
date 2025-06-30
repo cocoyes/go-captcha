@@ -7,8 +7,8 @@ import (
 	"log"
 	"testing"
 
-	"github.com/wenlng/go-captcha/v2/base/option"
-	"github.com/wenlng/go-captcha/v2/slide"
+	"github.com/cocoyes/go-captcha/v2/base/option"
+	"github.com/cocoyes/go-captcha/v2/slide"
 )
 
 var slideTileCapt slide.Captcha

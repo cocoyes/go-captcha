@@ -2,19 +2,19 @@
 <img width="120" style="padding-top: 50px; margin: 0;" src="https://github.com/wenlng/git-assets/blob/master/go-captcha/gocaptcha_logo.svg?raw=true"/>
 <h1 style="margin: 0; padding: 0">GoCaptcha</h1>
 <p>Golang 行为验证码</p>
-<a href="https://goreportcard.com/report/github.com/wenlng/go-captcha"><img src="https://goreportcard.com/badge/github.com/wenlng/go-captcha"/></a>
-<a href="https://godoc.org/github.com/wenlng/go-captcha"><img src="https://godoc.org/github.com/wenlng/go-captcha?status.svg"/></a>
-<a href="https://github.com/wenlng/go-captcha/releases"><img src="https://img.shields.io/github/v/release/wenlng/go-captcha.svg"/></a>
-<a href="https://github.com/wenlng/go-captcha/blob/v2/LICENSE"><img src="https://img.shields.io/badge/License-Apache2.0-green.svg"/></a>
-<a href="https://github.com/wenlng/go-captcha"><img src="https://img.shields.io/github/stars/wenlng/go-captcha.svg"/></a>
-<a href="https://github.com/wenlng/go-captcha"><img src="https://img.shields.io/github/last-commit/wenlng/go-captcha.svg"/></a>
+<a href="https://goreportcard.com/report/github.com/cocoyes/go-captcha"><img src="https://goreportcard.com/badge/github.com/cocoyes/go-captcha"/></a>
+<a href="https://godoc.org/github.com/cocoyes/go-captcha"><img src="https://godoc.org/github.com/cocoyes/go-captcha?status.svg"/></a>
+<a href="https://github.com/cocoyes/go-captcha/releases"><img src="https://img.shields.io/github/v/release/wenlng/go-captcha.svg"/></a>
+<a href="https://github.com/cocoyes/go-captcha/blob/v2/LICENSE"><img src="https://img.shields.io/badge/License-Apache2.0-green.svg"/></a>
+<a href="https://github.com/cocoyes/go-captcha"><img src="https://img.shields.io/github/stars/wenlng/go-captcha.svg"/></a>
+<a href="https://github.com/cocoyes/go-captcha"><img src="https://img.shields.io/github/last-commit/wenlng/go-captcha.svg"/></a>
 </div>
 
 <br/>
 
 > [English](README.md) | 中文 
 <p style="text-align: center">
-<a style="font-weight: bold" href="https://github.com/wenlng/go-captcha">Go Captcha</a> 是功能强大、模块化且高度可定制的行为式验证码库，支持多种交互式验证码类型：点选（Click）、滑动（Slide）、拖拽（Drag-Drop） 和 旋转（Rotate）。
+<a style="font-weight: bold" href="https://github.com/cocoyes/go-captcha">Go Captcha</a> 是功能强大、模块化且高度可定制的行为式验证码库，支持多种交互式验证码类型：点选（Click）、滑动（Slide）、拖拽（Drag-Drop） 和 旋转（Rotate）。
 </p>
 
 <p style="text-align: center"> ⭐️ 如果能帮助到你，请随手给点一个star</p>
@@ -36,18 +36,18 @@
 |----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | [document](http://gocaptcha.wencodes.com)                                  | GoCaptcha 文档                                                                                |
 | [online demo](http://gocaptcha.wencodes.com/demo/)                         | GoCaptcha 在线演示                                                                              |
-| [go-captcha-example](https://github.com/wenlng/go-captcha-example)         | Golang + 前端 + APP实例                                                                         |
-| [go-captcha-assets](https://github.com/wenlng/go-captcha-assets)           | Golang 内嵌素材资源                                                                               |
-| [go-captcha](https://github.com/wenlng/go-captcha)                         | Golang 验证码                                                                                  |
-| [go-captcha-jslib](https://github.com/wenlng/go-captcha-jslib)             | Javascript 验证码                                                                              |
-| [go-captcha-vue](https://github.com/wenlng/go-captcha-vue)                 | Vue 验证码                                                                                     |
-| [go-captcha-react](https://github.com/wenlng/go-captcha-react)             | React 验证码                                                                                   |
-| [go-captcha-angular](https://github.com/wenlng/go-captcha-angular)         | Angular 验证码                                                                                 |
-| [go-captcha-svelte](https://github.com/wenlng/go-captcha-svelte)           | Svelte 验证码                                                                                  |
-| [go-captcha-solid](https://github.com/wenlng/go-captcha-solid)             | Solid 验证码                                                                                   |
-| [go-captcha-uni](https://github.com/wenlng/go-captcha-uni)                 | UniApp 验证码，兼容 App、小程序、快应用等                                                                  |
-| [go-captcha-service](https://github.com/wenlng/go-captcha-service)         | GoCaptcha 服务，支持二进制、Docker镜像等方式部署，<br/> 提供 HTTP/GRPC 方式访问接口，<br/>可用单机模式和分布式（服务发现、负载均衡、动态配置等） |
-| [go-captcha-service-sdk](https://github.com/wenlng/go-captcha-service-sdk) | GoCaptcha 服务SDK工具包，包含 HTTP/GRPC 请求服务接口，<br/>支持静态模式、服务发现、负载均衡                                |
+| [go-captcha-example](https://github.com/cocoyes/go-captcha-example)         | Golang + 前端 + APP实例                                                                         |
+| [go-captcha-assets](https://github.com/cocoyes/go-captcha-assets)           | Golang 内嵌素材资源                                                                               |
+| [go-captcha](https://github.com/cocoyes/go-captcha)                         | Golang 验证码                                                                                  |
+| [go-captcha-jslib](https://github.com/cocoyes/go-captcha-jslib)             | Javascript 验证码                                                                              |
+| [go-captcha-vue](https://github.com/cocoyes/go-captcha-vue)                 | Vue 验证码                                                                                     |
+| [go-captcha-react](https://github.com/cocoyes/go-captcha-react)             | React 验证码                                                                                   |
+| [go-captcha-angular](https://github.com/cocoyes/go-captcha-angular)         | Angular 验证码                                                                                 |
+| [go-captcha-svelte](https://github.com/cocoyes/go-captcha-svelte)           | Svelte 验证码                                                                                  |
+| [go-captcha-solid](https://github.com/cocoyes/go-captcha-solid)             | Solid 验证码                                                                                   |
+| [go-captcha-uni](https://github.com/cocoyes/go-captcha-uni)                 | UniApp 验证码，兼容 App、小程序、快应用等                                                                  |
+| [go-captcha-service](https://github.com/cocoyes/go-captcha-service)         | GoCaptcha 服务，支持二进制、Docker镜像等方式部署，<br/> 提供 HTTP/GRPC 方式访问接口，<br/>可用单机模式和分布式（服务发现、负载均衡、动态配置等） |
+| [go-captcha-service-sdk](https://github.com/cocoyes/go-captcha-service-sdk) | GoCaptcha 服务SDK工具包，包含 HTTP/GRPC 请求服务接口，<br/>支持静态模式、服务发现、负载均衡                                |
 | ...                                                                        |                                                                                             |
 
 <br/>
@@ -96,7 +96,7 @@ $ source ~/.profile
 
 ## 安装
 ```shell
-$ go get -u github.com/wenlng/go-captcha/v2@latest
+$ go get -u github.com/cocoyes/go-captcha/v2@latest
 ```
 
 ## 按需引入模块
@@ -104,7 +104,7 @@ $ go get -u github.com/wenlng/go-captcha/v2@latest
 package main
 
 // 按需求引入对应的模块
-import "github.com/wenlng/go-captcha/v2/${click|slide|rotate}"
+import "github.com/cocoyes/go-captcha/v2/${click|slide|rotate}"
 
 func main(){
    // ....
@@ -140,9 +140,9 @@ import (
 
 	"github.com/golang/freetype"
 	"github.com/golang/freetype/truetype"
-	"github.com/wenlng/go-captcha/v2/base/option"
-	"github.com/wenlng/go-captcha/v2/click"
-	"github.com/wenlng/go-captcha/v2/base/codec"
+	"github.com/cocoyes/go-captcha/v2/base/option"
+	"github.com/cocoyes/go-captcha/v2/click"
+	"github.com/cocoyes/go-captcha/v2/base/codec"
 )
 
 var textCapt click.Captcha
@@ -154,7 +154,7 @@ func init() {
         // ...
 	)
 
-	// 可以使用预置的素材资源：https://github.com/wenlng/go-captcha-assets
+	// 可以使用预置的素材资源：https://github.com/cocoyes/go-captcha-assets
 	fontN, err := loadFont("../resources/fzshengsksjw_cu.ttf")
 	if err != nil {
 		log.Fatalln(err)
@@ -335,9 +335,9 @@ import (
 	"log"
 	"io/ioutil"
 
-	"github.com/wenlng/go-captcha/v2/base/option"
-	"github.com/wenlng/go-captcha/v2/slide"
-	"github.com/wenlng/go-captcha/v2/base/codec"
+	"github.com/cocoyes/go-captcha/v2/base/option"
+	"github.com/cocoyes/go-captcha/v2/slide"
+	"github.com/cocoyes/go-captcha/v2/base/codec"
 )
 
 var slideTileCapt slide.Captcha
@@ -345,7 +345,7 @@ var slideTileCapt slide.Captcha
 func init() {
 	builder := slide.NewBuilder()
 
-	// 可以使用预置的素材资源：https://github.com/wenlng/go-captcha-assets
+	// 可以使用预置的素材资源：https://github.com/cocoyes/go-captcha-assets
 	bgImage, err := loadPng("../resources/bg.png")
 	if err != nil {
 		log.Fatalln(err)
@@ -523,8 +523,8 @@ import (
 	"log"
 	"io/ioutil"
 
-	"github.com/wenlng/go-captcha/v2/rotate"
-	"github.com/wenlng/go-captcha/v2/base/codec"
+	"github.com/cocoyes/go-captcha/v2/rotate"
+	"github.com/cocoyes/go-captcha/v2/base/codec"
 )
 
 var rotateCapt rotate.Captcha
@@ -532,7 +532,7 @@ var rotateCapt rotate.Captcha
 func init() {
 	builder := rotate.NewBuilder()
 
-	// 可以使用预置的素材资源：https://github.com/wenlng/go-captcha-assets
+	// 可以使用预置的素材资源：https://github.com/cocoyes/go-captcha-assets
 	bgImage, err := loadPng("../resources/bg.png")
 	if err != nil {
 		log.Fatalln(err)

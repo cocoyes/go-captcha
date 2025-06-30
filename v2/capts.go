@@ -7,9 +7,9 @@
 package v2
 
 import (
-	"github.com/wenlng/go-captcha/v2/click"
-	"github.com/wenlng/go-captcha/v2/rotate"
-	"github.com/wenlng/go-captcha/v2/slide"
+	"github.com/cocoyes/go-captcha/v2/click"
+	"github.com/cocoyes/go-captcha/v2/rotate"
+	"github.com/cocoyes/go-captcha/v2/slide"
 )
 
 // Version # of captcha

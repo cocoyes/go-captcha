@@ -4,9 +4,9 @@ import (
 	"image"
 	"io/ioutil"
 
+	"github.com/cocoyes/go-captcha/v2/base/codec"
 	"github.com/golang/freetype"
 	"github.com/golang/freetype/truetype"
-	"github.com/wenlng/go-captcha/v2/base/codec"
 )
 
 func loadPng(p string) (image.Image, error) {
