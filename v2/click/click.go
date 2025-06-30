@@ -304,9 +304,12 @@ func (c *captcha) genDots(imageSize *option.Size, size *option.RangeVal, values 
 // returns: Error information
 func (c *captcha) check() error {
 	if c.mode == ModeText {
-		if len(c.resources.chars) < c.opts.rangeLen.Max {
-			return CharRangeLenErr
+		for _, item := range c.resources.chars {
+			if len(item) < c.opts.rangeLen.Max {
+				return CharRangeLenErr
+			}
 		}
+
 		return nil
 	} else if c.mode == ModeShape {
 		if len(c.resources.shapes) < c.opts.rangeLen.Max {
